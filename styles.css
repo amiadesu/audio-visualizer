@@ -1,0 +1,878 @@
+:root {
+    --background-main-color: rgb(52, 52, 52);
+
+    --loading-wheel-color: rgb(255, 202, 255);
+
+    --glass-frame-background-color: rgba(255, 202, 255, 0.6);
+    --glass-frame-border-color: rgb(192, 0, 192);
+
+    --player-frame-background-color: rgba(255, 202, 255, 0.6);
+    --player-frame-border-color: rgb(192, 0, 192);
+    --player-frame-text-color: rgb(0,0,0);
+
+    --audio-player-text-color: rgb(0,0,0);
+
+    --song-list-frame-background-color: rgba(27, 31, 34, 0.6);
+    --song-list-frame-border-color: rgb(9, 10, 11);
+
+    --progress-bar-color: rgb(231, 60, 126);
+
+    --gradient-border-color1: rgb(255, 32, 32);
+    --gradient-border-color2: rgb(255, 118, 118);
+    --gradient-border-color3: rgb(255, 213, 213);
+
+    --visualizer-pillar-color: rgb(255, 192, 203);
+
+    --title-main-color: rgb(192, 192, 192);
+
+}
+
+body.white-preset {
+    --loading-wheel-color: rgb(255, 202, 255);
+
+    --glass-frame-background-color: rgba(255, 202, 255, 0.6);
+    --glass-frame-border-color: rgb(192, 0, 192);
+
+    --player-frame-background-color: rgba(192, 192, 192, 0.6);
+    --player-frame-border-color: rgb(97, 97, 97);
+    --player-frame-text-color: rgb(0,0,0);
+
+    --audio-player-text-color: rgb(0,0,0);
+
+    --progress-bar-color: rgb(215, 226, 227);
+
+    --gradient-border-color1: rgb(160, 252, 255);
+    --gradient-border-color2: rgb(193, 255, 248);
+    --gradient-border-color3: rgb(233, 252, 255);
+
+    --visualizer-pillar-color: rgb(229, 230, 235);
+}
+
+body.black-preset {
+    --loading-wheel-color: rgb(255, 202, 255);
+
+    --glass-frame-background-color: rgba(255, 202, 255, 0.6);
+    --glass-frame-border-color: rgb(192, 0, 192);
+
+    --player-frame-background-color: rgba(65, 74, 76, 0.6);
+    --player-frame-border-color: rgb(14, 17, 17);
+    --player-frame-text-color: rgb(162, 162, 162);
+
+    --audio-player-text-color: rgb(0,0,0);
+
+    --progress-bar-color: rgb(101, 77, 147);
+
+    --gradient-border-color1: rgb(33, 0, 40);
+    --gradient-border-color2: rgb(94, 15, 102);
+    --gradient-border-color3: rgb(140, 81, 156);
+    
+    --visualizer-pillar-color: rgb(22, 22, 26);
+}
+
+body.gray-preset {
+    --loading-wheel-color: rgb(255, 202, 255);
+
+    --glass-frame-background-color: rgba(255, 202, 255, 0.6);
+    --glass-frame-border-color: rgb(192, 0, 192);
+
+    --player-frame-background-color: rgba(96, 104, 110, 0.6);
+    --player-frame-border-color: rgb(36, 39, 42);
+    --player-frame-text-color: rgb(0,0,0);
+
+    --audio-player-text-color: rgb(0,0,0);
+
+    --progress-bar-color: rgb(102, 102, 102);
+
+    --gradient-border-color1: rgb(34, 34, 34);
+    --gradient-border-color2: rgb(126, 126, 126);
+    --gradient-border-color3: rgb(223, 223, 223);
+    
+    --visualizer-pillar-color: rgb(156, 160, 168);
+}
+
+body.red-preset {
+    --loading-wheel-color: rgb(255, 202, 255);
+
+    --glass-frame-background-color: rgba(255, 202, 255, 0.6);
+    --glass-frame-border-color: rgb(192, 0, 192);
+
+    --player-frame-background-color: rgba(255, 186, 186, 0.6);
+    --player-frame-border-color: rgb(255, 71, 71);
+    --player-frame-text-color: rgb(0,0,0);
+
+    --audio-player-text-color: rgb(0,0,0);
+
+    --progress-bar-color: rgb(255, 82, 82);
+
+    --gradient-border-color1: rgb(255, 32, 32);
+    --gradient-border-color2: rgb(255, 118, 118);
+    --gradient-border-color3: rgb(255, 213, 213);
+    
+    --visualizer-pillar-color: rgb(255, 118, 118);
+}
+
+body.brown-preset {
+    --loading-wheel-color: rgb(255, 202, 255);
+
+    --glass-frame-background-color: rgba(255, 202, 255, 0.6);
+    --glass-frame-border-color: rgb(192, 0, 192);
+
+    --player-frame-background-color: rgba(210, 169, 147, 0.6);
+    --player-frame-border-color: rgb(117, 74, 67);
+    --player-frame-text-color: rgb(0,0,0);
+
+    --audio-player-text-color: rgb(0,0,0);
+
+    --progress-bar-color: rgb(162, 112, 85);
+
+    --gradient-border-color1: rgb(115, 44, 28);
+    --gradient-border-color2: rgb(170, 111, 71);
+    --gradient-border-color3: rgb(255, 227, 213);
+    
+    --visualizer-pillar-color: rgb(211, 175, 156);
+}
+
+body.orange-preset {
+    --loading-wheel-color: rgb(255, 202, 255);
+
+    --glass-frame-background-color: rgba(255, 202, 255, 0.6);
+    --glass-frame-border-color: rgb(192, 0, 192);
+
+    --player-frame-background-color: rgba(253, 208, 139, 0.6);
+    --player-frame-border-color: rgb(163, 87, 0);
+    --player-frame-text-color: rgb(0,0,0);
+
+    --audio-player-text-color: rgb(0,0,0);
+
+    --progress-bar-color: rgb(235, 115, 3);
+
+    --gradient-border-color1: rgb(218, 122, 25);
+    --gradient-border-color2: rgb(255, 191, 118);
+    --gradient-border-color3: rgb(255, 202, 152);
+    
+    --visualizer-pillar-color: rgb(255, 163, 92);
+}
+
+body.yellow-preset {
+    --loading-wheel-color: rgb(255, 202, 255);
+
+    --glass-frame-background-color: rgba(255, 202, 255, 0.6);
+    --glass-frame-border-color: rgb(192, 0, 192);
+
+    --player-frame-background-color: rgba(255, 218, 151, 0.6);
+    --player-frame-border-color: rgb(224, 168, 0);
+    --player-frame-text-color: rgb(0,0,0);
+
+    --audio-player-text-color: rgb(0,0,0);
+
+    --progress-bar-color: rgb(245, 199, 49);
+
+    --gradient-border-color1: rgb(170, 146, 31);
+    --gradient-border-color2: rgb(255, 237, 98);
+    --gradient-border-color3: rgb(255, 245, 172);
+    
+    --visualizer-pillar-color: rgb(225, 208, 96);
+}
+
+body.green-preset {
+    --loading-wheel-color: rgb(255, 202, 255);
+
+    --glass-frame-background-color: rgba(255, 202, 255, 0.6);
+    --glass-frame-border-color: rgb(192, 0, 192);
+
+    --player-frame-background-color: rgba(112, 194, 159, 0.6);
+    --player-frame-border-color: rgb(43, 100, 75);
+    --player-frame-text-color: rgb(0,0,0);
+
+    --audio-player-text-color: rgb(0,0,0);
+
+    --progress-bar-color: rgb(66, 158, 86);
+
+    --gradient-border-color1: rgb(15, 99, 0);
+    --gradient-border-color2: rgb(27, 228, 57);
+    --gradient-border-color3: rgb(177, 255, 172);
+    
+    --visualizer-pillar-color: rgb(155, 216, 120);
+}
+
+body.cyan-preset {
+    --loading-wheel-color: rgb(255, 202, 255);
+
+    --glass-frame-background-color: rgba(255, 202, 255, 0.6);
+    --glass-frame-border-color: rgb(192, 0, 192);
+
+    --player-frame-background-color: rgba(142, 210, 210, 0.6);
+    --player-frame-border-color: rgb(7, 134, 141);
+    --player-frame-text-color: rgb(0,0,0);
+
+    --audio-player-text-color: rgb(0,0,0);
+
+    --progress-bar-color: rgb(0, 164, 186);
+
+    --gradient-border-color1: rgb(0, 109, 117);
+    --gradient-border-color2: rgb(19, 196, 199);
+    --gradient-border-color3: rgb(127, 255, 246);
+    
+    --visualizer-pillar-color: rgb(35, 202, 214);
+}
+
+body.blue-preset {
+    --loading-wheel-color: rgb(202, 238, 255);
+
+    --glass-frame-background-color: rgba(162, 199, 255, 0.6);
+    --glass-frame-border-color: rgb(34, 41, 255);
+
+    --player-frame-background-color: rgba(123, 151, 199, 0.6);
+    --player-frame-border-color: rgb(28, 55, 97);
+    --player-frame-text-color: rgb(0,0,0);
+
+    --audio-player-text-color: rgb(0,0,0);
+
+    --progress-bar-color: rgb(71, 99, 201);
+
+    --gradient-border-color1: rgb(0, 14, 144);
+    --gradient-border-color2: rgb(110, 127, 255);
+    --gradient-border-color3: rgb(195, 208, 255);
+    
+    --visualizer-pillar-color: rgb(67, 105, 171);
+}
+
+body.purple-preset {
+    --loading-wheel-color: rgb(255, 202, 255);
+
+    --glass-frame-background-color: rgba(255, 202, 255, 0.6);
+    --glass-frame-border-color: rgb(192, 0, 192);
+
+    --player-frame-background-color: rgba(221, 136, 255, 0.6);
+    --player-frame-border-color: rgb(136, 0, 136);
+    --player-frame-text-color: rgb(0,0,0);
+
+    --audio-player-text-color: rgb(0,0,0);
+
+    --progress-bar-color: rgb(187, 85, 227);
+
+    --gradient-border-color1: rgb(151, 0, 193);
+    --gradient-border-color2: rgb(218, 118, 255);
+    --gradient-border-color3: rgb(254, 179, 255);
+    
+    --visualizer-pillar-color: rgb(216, 150, 255);
+}
+
+body.pink-preset {
+    --loading-wheel-color: rgb(255, 202, 255);
+
+    --glass-frame-background-color: rgba(255, 202, 255, 0.6);
+    --glass-frame-border-color: rgb(192, 0, 192);
+
+    --player-frame-background-color: rgba(255, 202, 255, 0.6);
+    --player-frame-border-color: rgb(192, 0, 192);
+    --player-frame-text-color: rgb(0,0,0);
+
+    --audio-player-text-color: rgb(0,0,0);
+
+    --progress-bar-color: rgb(220, 83, 181);
+
+    --gradient-border-color1: rgb(189, 0, 189);
+    --gradient-border-color2: rgb(216, 75, 255);
+    --gradient-border-color3: rgb(243, 151, 255);
+    
+    --visualizer-pillar-color: rgb(255, 183, 233);
+}
+
+html {
+    box-sizing: border-box;
+    min-width: 600px;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: var(--background-main-color);
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /* transition: 1s linear; */
+}
+
+.main-title {
+    text-align: center;
+    margin: 10px;
+    margin-top: 0;
+    padding-top: 10px;
+    color: var(--title-main-color);
+}
+
+#player-wrapper {
+    display: table;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: -1;
+    margin: 10px auto 0 auto;
+}
+
+.glass-frame {
+    display: table-cell;
+    width: 100%;
+    /* height: 100%; */
+    margin: 10px auto;
+    background-color: var(--glass-frame-background-color);
+    border: 5px solid var(--glass-frame-border-color);
+    border-radius: 15px;
+    z-index: 1;
+    backdrop-filter: blur(3px);
+    transition: background-color 1s linear, border-color 1s linear;
+}
+
+#player-frame {
+    width: 35vw;
+    max-width: 35vw;
+    height: max-content;
+    margin-right: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    background-color: var(--player-frame-background-color);
+    border: 5px solid var(--player-frame-border-color);
+    border-right-width: 2.5px;
+    padding: 10px 20px;
+    color: var(--player-frame-text-color);
+}
+
+#song-list-frame {
+    width: 25vw;
+    height: auto;
+    margin-left: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    background-color: var(--song-list-frame-background-color);
+    border: 5px solid var(--song-list-frame-border-color);
+    border-left-width: 2.5px;
+    padding: 10px 5px;
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.scrollable-content-wrapper {
+    position: absolute;
+    top: 1%;
+    left: -0.5%;
+    width: 100%;
+    height: 97.5%;
+    /* max-height: 60vh; */
+    overflow-y: overlay;
+    overflow-x: hidden;
+}
+
+.scrollable-content-wrapper::-webkit-scrollbar {
+    border-radius: 100vw;
+    width: 8px;
+    background-color: #333;
+}
+
+.scrollable-content-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 100vw;
+    background-color: #666;
+}
+
+.scrollable-content-list {
+    width: 100%;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.song-picker-title, .song-picker-duration {
+    margin: 0;
+}
+
+.song-picker-title {
+    font-size: 1rem;
+    font-weight: 600;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 95%;
+}
+
+.song-picker-duration {
+    font-size: 0.9rem;
+}
+
+.song-picker-frame {
+    width: 90%;
+    height: max-content;
+    background-color: rgba(170, 170, 170, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.song-picker-frame:hover {
+    background-color: rgba(180, 180, 180, 1);
+}
+
+.song-picker-frame:first-of-type {
+    margin-top: 5px;
+}
+
+.song-picker-frame:last-of-type {
+    margin-bottom: 5px;
+}
+
+#song-header {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+#song-header-image-wrapper {
+    width: 40%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    background: transparent;
+}
+
+@property --current-song-header-image-gradient-degree {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+#song-header-gradient-border, #song-header-gradient-border::before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background-image: conic-gradient(from var(--current-song-header-image-gradient-degree), var(--gradient-border-color1) 0%, 
+                                var(--gradient-border-color2) 25%, var(--gradient-border-color3) 40%, var(--gradient-border-color1) 85%);
+    padding: 3px;
+    border-radius: 10%;
+    z-index: 1;
+    animation: gradient-spin 3s linear infinite;
+    overflow: hidden;
+    /* transition: 0.1s linear; */
+}
+
+#song-header-gradient-border::before {
+    content: '';
+    filter: blur(0.8rem);
+    /* opacity: 0.5; */
+}
+
+@keyframes gradient-spin {
+    0% {
+        --current-song-header-image-gradient-degree: 0deg;
+    }
+    100% {
+        --current-song-header-image-gradient-degree: 360deg;
+    }
+}
+
+#song-header-image, #empty-header-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+    z-index: 2;
+}
+
+#empty-header-image {
+    background: linear-gradient(-40deg, #555, #ddd);
+}
+
+#song-header-title, #song-header-artist {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90%;
+}
+
+#song-header-title {
+    font-size: 1.6rem;
+}
+
+#audio-player {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 25px auto;
+    padding: 5px 25px;
+    background-color: #aaa;
+    border-radius: 15px;
+    color: var(--audio-player-text-color);
+}
+
+#audio-current-time {
+    margin-left: 5px;
+}
+
+#volume-input {
+    writing-mode: vertical-lr;
+    direction: rtl;
+    height: 70px;
+    margin: 0;
+}
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: max-content;
+    height: max-content;
+}
+
+#audio-progress {
+    position: absolute;
+    /* transform-origin: center center;
+    transform: translateX(-50%) translateY(-50%); */
+    top: 50%;
+    left: 0%;
+    width: 200px;
+    height: 0px;
+    transform: scaleY(5);
+    opacity: 0;
+    z-index: 1;
+    margin: auto;
+}
+
+#audio-progress::-webkit-slider-thumb {
+    transform: scaleX(0.1);
+}
+
+#pillars-wrapper {
+    width: max-content;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    /* background: linear-gradient(to right, #ee7752 20%, #e73c7e 45%, #23a6d5 70%, #23d5ab 90%); */
+    position: relative;
+    /* mask-image: element(#pillars-background); */
+}
+
+#pillars-background {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 200px;
+    height: 100%;
+    height: 100%;
+}
+
+.pillar-container {
+    margin: 0 2px; 
+    padding: 0;
+    width: 6px;
+    min-height: 10px;
+    height: auto;
+    background-color: #333;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    mix-blend-mode: difference;
+    border-radius: 10px;
+}
+
+.pillar {
+    min-height: 10px;
+    max-height: 50px;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    width: 100%;
+    -webkit-mask: linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0);
+    -webkit-background-clip:content-box;
+    background-clip: border-box;
+    transition: 0.2s;
+}
+
+.pillar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background: linear-gradient(to right, #ee7752 20%, #e73c7e 45%, #23a6d5 70%, #23d5ab 90%); */
+    background-color: var(--progress-bar-color);
+    z-index: -10;
+    border-radius: 10px;
+}
+
+.pillar-text {
+    width: max-content;
+    background-color: rgba(102, 102, 102, 1);
+    color: #eee;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    z-index: 3;
+    white-space: nowrap;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.pillar-text::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 99%;
+    transform: translateX(-50%);
+    border: 4px solid;
+    border-color: rgba(102, 102, 102, 1) transparent transparent transparent;
+    z-index: 3;
+}
+
+.pillar-container:hover .pillar-text {
+    position: fixed;
+    display: block;
+    opacity: 1;
+}
+
+@property --audio-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@keyframes spin {
+    from {
+        --audio-angle: 0deg;
+    }
+
+    to {
+        --audio-angle: 360deg;
+    }
+}
+
+.control-tab-button {
+    padding: 0;
+    border: none;
+    background: none;
+    width: max-content;
+    height: max-content;
+    fill: #666;
+    cursor: pointer;
+}
+
+.control-tab-button:hover {
+    fill: #333;
+}
+
+.control-tab-button svg {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#background-visualizer {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* overflow: hidden; */
+}
+
+.visualizer-pillar {
+    z-index: 1;
+    margin: 0 1px;
+    width: 30px;
+    background-color: var(--visualizer-pillar-color);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: background-color 1s linear, height 0.15s linear;
+    /* transition: height 0.15s; */
+}
+
+/* #loader {
+    position: absolute; 
+    top: 10px; left: 10px; 
+    width: 30px; 
+    height: 30px;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db; 
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+    z-index: 2; 
+} */
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    #player-frame {
+        width: 50vw;
+        max-width: 50vw;
+        /* height: max-content; */
+    }
+    #song-list-frame {
+        width: 30vw;
+        /* height: 70vh; */
+    }
+    .scrollable-content-wrapper {
+        width: 99%;
+        left: 0.5%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #player-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    #player-frame {
+        width: 70vw;
+        max-width: 70vw;
+        margin: 0 auto !important;
+        border-top-right-radius: 15px !important;
+        border-bottom-right-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+        border-right-width: 5px !important;
+    }
+    #song-list-frame {
+        width: calc(70vw + 30px);
+        height: 100vh;
+        max-height: 500px;
+        margin: 0 auto 25px auto !important;
+        border-top-right-radius: 0 !important;
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 15px !important;
+        border-left-width: 5px !important;
+    }
+    .scrollable-content-wrapper {
+        height: max-content;
+        max-height: 500px;
+    }
+    .visualizer-pillar {
+        margin: 0 0.5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .visualizer-pillar {
+        margin: 0;
+    }
+    .pillar-container {
+        margin: 0 1.5px; 
+        width: 5px;
+    }
+    #audio-player {
+        gap: 0.3rem;
+        margin: 15px auto;
+        padding: 5px 15px;
+    }
+    #volume-input {
+        height: 60px;
+    }
+    .control-tab-button svg {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #player-frame {
+        width: 90vw;
+        max-width: 90vw;
+        padding: 10px 5px;
+    }
+    #song-list-frame {
+        width: 90vw;
+    }
+}
+
+
+
+
+/* HTML: <div class="loader"></div> */
+#loader {
+    position: absolute; 
+    top: 10px; left: 10px;
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    display: grid;
+    color: var(--loading-wheel-color);
+    background: radial-gradient(farthest-side, currentColor calc(100% - 6px),#0000 calc(100% - 5px) 0);
+    -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 13px),#000 calc(100% - 12px));
+    mask: radial-gradient(farthest-side,#0000 calc(100% - 13px),#000 calc(100% - 12px));
+    border-radius: 50%;
+    animation: l19 2s infinite linear;
+    z-index: 2;
+    transition: color 1s linear;
+}
+#loader::before,
+#loader::after {    
+    content: "";
+    grid-area: 1/1;
+    background:
+      linear-gradient(currentColor 0 0) center,
+      linear-gradient(currentColor 0 0) center;
+    background-size: 100% 10px,10px 100%;
+    background-repeat: no-repeat;
+}
+#loader::after {
+    transform: rotate(45deg);
+}
+  
+@keyframes l19 { 
+    100%{transform: rotate(1turn)}
+}
+
+#file-upload-wrapper, #directory-path-upload-wrapper {
+    background-color: #ddd;
+    width: max(150px, min(30%, 200px));
+    text-align: center;
+    padding: 3px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* @supports(-webkit-mask-image: url(#mask)) or (mask-image: url(#mask)) {
+    #song-header-gradient-border, #song-header-gradient-border::before {
+        object-fit: cover;
+        -webkit-mask-image: url(#mask);
+        mask-image: url(#mask);
+    }
+} */
